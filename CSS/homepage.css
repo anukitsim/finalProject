@@ -1,0 +1,34 @@
+@font-face {
+    font-display: block;
+    font-family: "TeX Gyre Heros Condensed";
+    src: url("https://type.cargo.site/files/TeXGyreHerosCondensed-Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+    unicode-range: U+0000-DFFF, U+F900-FFFD;
+  }
+
+ 
+  video {
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        
+        
+      }
+      a{
+       
+        font-family: "TeX Gyre Heros Condensed";
+        font-size: 17px;
+        font-weight: bolder;  
+        color: #acacac;
+        text-decoration: none;
+        
+      }
+  
+      a:hover{
+        opacity: 1;
+        color:#464646;
+      }
+  
