@@ -1,88 +1,81 @@
 body {
-    background-color: #acacac;
-  }
-  
-  button {
-    color: rgba(255, 255, 255, 0.8);
-    background: black;
-    border-radius: 10rem;
-    padding: 0 1.2rem 0.1rem 1.2rem;
-    border: none;
-  }
-  
+  background-color: #acacac;
+}
 
+button {
+  color: rgba(255, 255, 255, 0.8);
+  background: black;
+  border-radius: 10rem;
+  padding: 0 1.2rem 0.1rem 1.2rem;
+  border: none;
+}
 
-  .navbar .navbar-nav .nav-link {
-      color: #000000;
-      font-size: 1.1em;
-      padding-right: 1em;
-  }
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 1.1em;
+  padding-right: 1em;
+}
 
+img {
+  width: 300px;
+  height: 300px;
 
-  
-  img {
-    width: 300px;
-    height: 300px;
-   
-    opacity: 0;
-    transform: translateY(4rem) rotateZ(-5deg);
-    transition: transform 4s 0.25s cubic-bezier(0, 1, 0.3, 1),
-      opacity 0.3s 0.25s ease-out;
-    will-change: transform, opacity;
-    z-index: 2;
-  }
-  
-  img.is-visible {
-    opacity: 1;
-    transform: rotateZ(-2deg);
-  }
-  
-  .module-first {
-    background-color: transparent;
-    /* width: 38%; */
-    min-height: 170px;
-    /* position: relative;
+  opacity: 0;
+  transform: translateY(4rem) rotateZ(-5deg);
+  transition: transform 4s 0.25s cubic-bezier(0, 1, 0.3, 1),
+    opacity 0.3s 0.25s ease-out;
+  will-change: transform, opacity;
+  z-index: 2;
+}
+
+img.is-visible {
+  opacity: 1;
+  transform: rotateZ(-2deg);
+}
+
+.module-first {
+  background-color: transparent;
+  /* width: 38%; */
+  min-height: 170px;
+  /* position: relative;
       padding: 20px;
       margin-right: 4%;
       margin-bottom: 4%; */
-  }
+}
 
-  #sequence{
-    float: left;
-  }
-  
-  section {
-    background: transparent;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    overflow: hidden;
-  }
+#sequence {
+  float: left;
+}
 
-  .text{
-    margin-top: 200px;
-  }
-  
-  .module {
-    width: 38%;
-    min-height: 200px;
-    background: transparent;
-    position: relative;
-    float: left;
-    padding: 20px;
-    margin-right: 4%;
-    margin-bottom: 4%;
-  }
-  
-  p {
-    z-index: 0;
-    position: fixed;
-    
-  }
-  
-  #sequence {
-    font-size: 4em;
-    position: fixed;
-    
-  }
-  
+section {
+  background: transparent;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.text {
+  margin-top: 200px;
+}
+
+.module {
+  width: 38%;
+  min-height: 200px;
+  background: transparent;
+  position: relative;
+  float: left;
+  padding: 20px;
+  margin-right: 4%;
+  margin-bottom: 4%;
+}
+
+p {
+  z-index: 0;
+  position: fixed;
+}
+
+#sequence {
+  font-size: 3em;
+  position: fixed;
+}
