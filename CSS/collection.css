@@ -57,6 +57,10 @@ body {
     padding: 20px;
     overflow: hidden;
   }
+
+  .text{
+    margin-top: 200px;
+  }
   
   .module {
     width: 38%;
@@ -72,11 +76,12 @@ body {
   p {
     z-index: 0;
     position: fixed;
+    
   }
   
   #sequence {
-    font-size: 100px;
+    font-size: 4em;
     position: fixed;
-    z-index: 0;
+    
   }
   
